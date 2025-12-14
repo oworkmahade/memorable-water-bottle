@@ -9,7 +9,7 @@ const Bottle = ({ bottle, handleAddToCart }) => {
       <p>Brand: {brand}</p>
       <p>Price: $ {price}</p>
       <div>
-        <img style={{ width: "300px" }} src={image}></img>
+        <img style={{ width: "300px" }} src={image ? image : "Not found"}></img>
       </div>
       <p>Features: {features}</p>
       <button onClick={() => handleAddToCart(bottle)}>Purchase</button>

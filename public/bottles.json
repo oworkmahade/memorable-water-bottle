@@ -1,7 +1,7 @@
 [
   {
-    "id": 1,
-    "name": "LARQ Bottle PureVis",
+    "id": "akjsdj-vgbhfd5866-bvj2465gsjk-48291vbdsfg",
+    "name": "PureVis UV Clean Bottle",
     "brand": "LARQ",
     "price": 99,
     "features": [
@@ -12,8 +12,8 @@
     "image": "https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1714994634/BWOB100A/BWOB100A.png"
   },
   {
-    "id": 2,
-    "name": "HidrateSpark PRO",
+    "id": "xjksdf-ghfd90312-bvjsd2465-asdfvb",
+    "name": "HydrateSpark PRO Steel",
     "brand": "HidrateSpark",
     "price": 79,
     "features": [
@@ -24,68 +24,56 @@
     "image": "https://hidratespark.com/cdn/shop/articles/20211001_SB_TapPreorder_Cover.jpg"
   },
   {
-    "id": 3,
-    "name": "Noerden LIZ Smart Bottle",
+    "id": "qwerui-71458vgbhfd-jsk2465-bvgd",
+    "name": "LIZ Smart UV Bottle",
     "brand": "Noerden",
     "price": 59,
     "features": ["UV sterilization", "Temperature display", "Portable"],
     "image": "https://rustans.com/cdn/shop/products/2772330_3.jpg?v=1620111379"
   },
   {
-    "id": 4,
-    "name": "Ozmo Active Smart Bottle",
-    "brand": "Ozmo",
-    "price": 69,
-    "features": [
-      "Hydration tracking",
-      "Coffee & water detection",
-      "App analytics"
-    ],
-    "image": "https://www.cnet.com/a/img/resize/f74cacb7438ae18cb8a9db0cd1d5cb52c1dd6ebe/hub/2016/07/06/5f41e880-211e-465f-b924-87a87d3a4732/ozmo-product-photos-4.jpg"
-  },
-  {
-    "id": 5,
-    "name": "ICEWR Smart Hydration Bottle",
+    "id": "icewr-55902-vgbhfd-jk2465-bvds",
+    "name": "ICEWR Smart LED Bottle",
     "brand": "ICEWR",
     "price": 39,
     "features": ["LED hydration alarm", "Insulated steel", "USB charging"],
     "image": "https://m.media-amazon.com/images/I/51U-8chOXZL._UF894,1000_QL80_.jpg"
   },
   {
-    "id": 6,
-    "name": "LifeFuels Smart Bottle",
+    "id": "lifefuels-81347-vbhfdg-jk2465",
+    "name": "LifeFuels Vitamin Bottle",
     "brand": "LifeFuels",
     "price": 89,
     "features": ["Tracks vitamins", "Hydration monitor", "Flavor pods"],
     "image": "https://i.pcmag.com/imagery/reviews/05xW5L6lxV0Utq5XGDm4QO2-7..v1569473444.jpg"
   },
   {
-    "id": 7,
-    "name": "Equa Smart Water Bottle",
+    "id": "equa-47510-ghfdvb-jk2465",
+    "name": "Equa Premium Smart Bottle",
     "brand": "Equa",
     "price": 79,
     "features": ["Glowing hydration reminder", "App tracker", "Premium design"],
     "image": "https://m.media-amazon.com/images/I/61XDVAla9KL._AC_UF894,1000_QL80_.jpg"
   },
   {
-    "id": 8,
-    "name": "Thermos Smart Lid Bottle",
+    "id": "thermos-93544-vgbhfd-jk2465",
+    "name": "Thermos Smart Temp Bottle",
     "brand": "Thermos",
     "price": 49,
     "features": ["Tracks temperature", "Water intake sync", "Leak-proof"],
     "image": "https://i5.walmartimages.com/asr/aaaf4948-1a85-4d09-8579-05d4b7207ebb_1.e90e5972fae35d7c11a5e7efdcc68d27.jpeg"
   },
   {
-    "id": 9,
-    "name": "LARQ Bottle Movement",
+    "id": "larq-61429-vgbhfd-jk2465",
+    "name": "LARQ FeatherLight UV Bottle",
     "brand": "LARQ",
     "price": 89,
     "features": ["Self-cleaning UV", "Featherlight", "Non-insulated"],
     "image": "https://www.merchology.com/cdn/shop/files/BWGW068A-Granite-White-3_1024x1024.jpg"
   },
   {
-    "id": 10,
-    "name": "British Berkefeld Smart Steel Bottle",
+    "id": "berkefeld-72083-vgbhfd-jk2465",
+    "name": "Berkefeld Steel Filter Bottle",
     "brand": "British Berkefeld",
     "price": 69,
     "features": ["Purifier", "Stainless steel", "Long-lasting filter"],
