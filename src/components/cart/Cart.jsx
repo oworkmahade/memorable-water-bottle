@@ -1,3 +1,5 @@
+// eslint prop-types warning issues
+import PropTypes from "prop-types";
 import "./Cart.css";
 const Cart = ({ cart }) => {
   console.log(cart);
@@ -13,6 +15,11 @@ const Cart = ({ cart }) => {
       </div>
     </div>
   );
+};
+
+// eslint prop-types warning issues
+Cart.propTypes = {
+  cart: PropTypes.array.isRequired,
 };
 
 export { Cart };

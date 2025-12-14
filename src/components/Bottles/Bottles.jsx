@@ -29,6 +29,7 @@ const Bottles = () => {
         }
       }
       setCart(savedCart);
+
       console.log(cart);
     }
   }, [bottles]);
