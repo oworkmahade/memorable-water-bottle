@@ -1,8 +1,7 @@
 // eslint prop-types warning issues
 import PropTypes from "prop-types";
 import "./Cart.css";
-const Cart = ({ cart }) => {
-  console.log(cart);
+const Cart = ({ cart, handleRemoveFromCart }) => {
   return (
     <div>
       <h3>Shopping Cart</h3>
@@ -10,7 +9,13 @@ const Cart = ({ cart }) => {
 
       <div className="cart-container">
         {cart.map((bottle) => (
-          <img src={bottle.image}></img>
+          <div style={{ marginBottom: "10px" }}>
+            {" "}
+            <img src={bottle.image}></img> <p>{bottle.price}</p>
+            <button onClick={() => handleRemoveFromCart(bottle.id)}>
+              Remove
+            </button>
+          </div>
         ))}
       </div>
     </div>
@@ -20,6 +25,7 @@ const Cart = ({ cart }) => {
 // eslint prop-types warning issues
 Cart.propTypes = {
   cart: PropTypes.array.isRequired,
+  handleRemoveFromCart: PropTypes.func.isRequired,
 };
 
 export { Cart };

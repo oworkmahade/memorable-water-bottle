@@ -48,4 +48,11 @@ const addToLSCart = (id) => {
  *
  */
 
-export { addToLSCart, getStoredCart };
+// remove from local storage
+const removeFromLS = (id) => {
+  const cart = getStoredCart();
+  const remaining = cart.filter((idx) => idx !== id);
+  saveToLS(remaining);
+};
+
+export { addToLSCart, getStoredCart, removeFromLS };

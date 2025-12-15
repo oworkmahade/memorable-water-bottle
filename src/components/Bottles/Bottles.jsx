@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import Bottle from "../Bottle/Bottle";
 import "./Bottles.css";
-import { addToLSCart, getStoredCart } from "../../utilities/localStorage";
+import {
+  addToLSCart,
+  getStoredCart,
+  removeFromLS,
+} from "../../utilities/localStorage";
 import { Cart } from "../cart/cart";
 import "../cart/Cart.css";
 
@@ -16,8 +20,6 @@ const Bottles = () => {
   }, []);
 
   useEffect(() => {
-    console.log("called from ", bottles.length);
-
     if (bottles.length > 0) {
       const lsStoredCart = getStoredCart();
 
@@ -40,6 +42,13 @@ const Bottles = () => {
     addToLSCart(bottle.id);
   };
 
+  const handleRemoveFromCart = (id) => {
+    // visual cart remove
+    // remove from LS
+
+    removeFromLS(id);
+  };
+
   /**
  * 🔑 Short answer (core idea)
 
@@ -55,7 +64,7 @@ They are NOT duplicates. They run at different times for different reasons.
   return (
     <>
       <div style={{ border: "2px solid red", marginBottom: "20px" }}>
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart} handleRemoveFromCart={handleRemoveFromCart}></Cart>
       </div>
 
       <div className="bottles-style">
